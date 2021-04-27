@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Martial House | Singapore's Leading Wushu Institute</title>
+
+<style>
+body {
+  background-color:white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<style>
+
+#navbar {
+  overflow: hidden;
+  background-color: pink;
+}
+
+#navbar a {
+  float: center;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 25px;
+}
+
+#navbar a:hover {
+  background-color: #ff66b3;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #e60000;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 0px;
+}
+
+#navbar .search-container {
+  float: right;
+}
+
+#navbar input[type=text] {
+  padding: 6px;
+  margin-top: 15px;
+  font-size: 25px;
+  border: black;
+}
+
+#navbar .search-container button {
+  float: none;
+  padding: 6px 6px;
+  margin-top: 15px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 25px;
+  border: black;
+  cursor: pointer;
+}
+
+#navbar .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar .search-container {
+    float: none;
+  }
+  #navbar a, #navbar input[type=text], #navbar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+  }
+  #navbar input[type=text] {
+    border: 1px solid; 
+	border-color: black
+  }
+}
+</style>
+</head>
+
+<body>
+<img src = "https://s3-ap-southeast-1.amazonaws.com/cdn.sparkfn.io/wp-content/uploads/sites/13/2017/11/cropped-mh-logo_SMALL.png" alt="Logo" width="100px" height="100px" style="float:left">
+ <h1 id="top" style="color:Red; font-family:Georgia; text-align:center; font-size: 70px; margin-right:85px">Martial House</h1>
+
+
+<div id="navbar">
+	
+ 
+	<a href="index.html">Home</a>
+	<a href="coaches.html">Coaches</a>
+	<a href="courses.html">Courses</a>  
+	<a href="registration.html">Registration</a> 
+	<a href="contact.html">Contact Us</a> 
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search..." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</br>
+<img src="map.png" style="width:80%;height:80%">
+</br>
+
+<hr>
+<h3>
+
+<p style="text-align:center; font-size:30px;color:red">Martial House Paya Lebar (HQ)</p>
+<ul><p style="text-align:center; font-size:20px">Phone: +65 6440 5572</p></ul>
+<ul><p style="text-align:center; font-size:20px">Email: info@martialhouse.com</p></ul>
+<ul><p style="text-align:center; font-size:20px">Adress: 115 Eunos Ave 3 #05-02, Singapore 409839</p></ul>
+<ul><p style="text-align:center; font-size:20px">Hours: Monday-Friday(10:30am - 9:30pm), Saturday-Sunday(8:30am - 7:00pm)</p></ul>
+</h3>
+</br>
+<hr>
+<h3>
+
+<p style="text-align:center; font-size:30px;color:red">Martial House Geylang</p>
+<ul><p style="text-align:center; font-size:20px">Phone: +65 9839 1718</p></ul>
+<ul><p style="text-align:center; font-size:20px">Email: info@martialhouse.com</p></ul>
+<ul><p style="text-align:center; font-size:20px">Adress: 23 Lorong 29 Geylang #05-01, Singapore 388072</p></ul>
+<ul><p style="text-align:center; font-size:20px">Hours: Monday-Friday(5:00pm - 9:30pm), Saturday-Sunday(8:30am - 7:00pm)</p></ul>
+</h3>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.box {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: 200px;
+}
+.boxthree {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  height: 100px;
+}
+.boxcopy {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height:100px;
+}
+.table::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</br>
+<hr>
+
+<style>
+.slides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+</style>
+
+  <div class="slideshow-container">
+
+<div class="mySlides ">
+  <div class="numbertext">1 / 2</div>
+  <img src="slide.png" style="width:100%">
+</div>
+
+<div class="mySlides ">
+  <div class="numbertext">2 / 2</div>
+  <img src="slidetwo.jpg" style="width:100%">
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+<br>
+<body>
+<div class="table">
+  <div class="box" style="background-color:white">
+  <h2 style="text-align:center; font-size:40px; color:Red; text-shadow:none"><strong>Contact Us</h2>
+  <p style="text-align:center; font-size:20px; color:black; text-shadow:none">Tel: +65 6440 5572</p>
+  <p style="text-align:center; font-size:20px; color:black; text-shadow:none">info@martialhouse.com  </p>
+  </div>
+  <div class="box" style="background-color:white">
+  <h2 style="text-align:center; font-size:40px; color:Red; text-shadow:none"><strong>Find us on Facebook</h2>
+  <p style="text-align:center; font-size:20px; color:black; text-shadow:none"><a href="https://www.facebook.com/martialhouse/"><i>Martial House 武术之家</i></p>
+  
+  </div>
+</div>
+<body>
+
+<body>
+<div class="table">
+  <div class="boxcopy" style="background-color:white">
+  <p style="text-align:right;font-size:20px"><a href="#top">Back to top</a>
+  <p style="text-align:center; font-size:15px; color:black; font-family:none; text-shadow:none">&copy; Copyright 2021 Martial House</p>
+  </div>
+  <br>
+</body>
+</html>
